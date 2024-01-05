@@ -745,9 +745,14 @@ body {
   .chat-area {
     margin: 0 15px 15px 15px;
     grid-template-columns: 50% 50%;
+    grid-template-rows: initial;
   }
   .modernize-inner {
     grid-template-rows: 70px 1fr;
+  }
+  .text-area {
+    max-height: 80vh;
+    overflow: auto;
   }
 }
 @media (max-width: 620px) {
