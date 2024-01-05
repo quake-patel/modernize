@@ -262,18 +262,18 @@ body {
   margin: 0;
   padding-bottom: 10px;
 }
-.pagination {
+.breadcrumb {
   display: flex;
   align-items: center;
 }
-.pagination a {
+.breadcrumb a {
   text-decoration: none;
   cursor: pointer;
 }
-.pagination a svg {
+.breadcrumb a svg {
   transition: 0.3s ease-in-out;
 }
-.pagination a:hover {
+.breadcrumb a:hover {
   text-decoration: underline;
 }
 .banner-image {
@@ -797,7 +797,7 @@ body {
     font-size: 18px;
     padding: 0;
   }
-  .pagination a {
+  .breadcrumb a {
     font-size: 12px;
   }
   .banner-image img {
