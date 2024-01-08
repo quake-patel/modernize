@@ -642,7 +642,7 @@ body {
   body.sidebar-closed .modernize-inner {
     padding-left: 0;
   }
-  .side-bar,
+  .mobile-area,
   .logo-mobile {
     display: none;
   }
@@ -690,9 +690,11 @@ body {
   .text-area-inner {
     padding: 7px;
   }
+  .files span svg,
   .media span svg {
     width: 16px;
   }
+  .files h2,
   .media h2 {
     font-size: 12px;
   }
