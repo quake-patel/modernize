@@ -798,6 +798,7 @@ body {
   }
   .banner-image img {
     max-width: 150px;
+    display: flex;
   }
 }
 @media (max-width: 380px) {
