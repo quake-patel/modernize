@@ -707,6 +707,9 @@ body {
     width: 67px;
     font-size: 10px;
   }
+  .chat-body-inner {
+    grid-template-columns: 1fr 200px;
+  }
 }
 @media (max-width: 1140px) {
   .chat-body-inner {
