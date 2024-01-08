@@ -656,9 +656,9 @@ body {
   .text-area-inner {
     padding: 15px;
   }
-  .logo {
+  /* .logo {
     height: 65px;
-  }
+  } */
   .logo,
   .header-inner {
     padding: 15px;
