@@ -710,6 +710,9 @@ body {
   .chat-body-inner {
     grid-template-columns: 1fr 200px;
   }
+  .files-text p {
+    font-size: 12px;
+  }
 }
 @media (max-width: 1140px) {
   .chat-body-inner {
