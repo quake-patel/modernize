@@ -21,6 +21,6 @@ $(document).ready(function () {
 $(document).ready(function () {
   $(".accordian-btn").on("click", function () {
     $(this).next(".accordian").slideToggle();
-    $(this).find("span").toggleClass("rotate");
+    $(this).find("svg").toggleClass("rotate");
   });
 });
