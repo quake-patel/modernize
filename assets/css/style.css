@@ -112,13 +112,16 @@ body {
 }
 .header {
   height: 100px;
+  border-left: 1px solid #eaeff4;
+}
+.main {
+  border-left: 1px solid #eaeff4;
 }
 .logo {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 30px;
-  border-right: 1px solid #eaeff4;
 
   transition: all 0.3s;
 
@@ -237,7 +240,6 @@ body {
   filter: drop-shadow(0px 0px 4px #bbcde5);
 }
 .side-bar {
-  border-right: 1px solid #eaeff4;
   position: fixed;
   background-color: #fff;
   width: var(--md-sidebar-width);
@@ -735,6 +737,10 @@ body {
   }
   .chat-body-inner {
     grid-template-columns: 1fr 102px;
+  }
+  .header,
+  .main {
+    border-left: none;
   }
 }
 @media (max-width: 720px) {
