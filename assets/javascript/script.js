@@ -16,9 +16,9 @@ $(document).ready(function () {
       $(".group").addClass("none");
     }
   });
-});
-// accordian
-$(".accordian-btn").on("click", function () {
-  $(this).next(".accordian").slideToggle();
-  $(this).find("span svg").toggleClass("rotate");
+  // accordian
+  $(".accordian-btn").on("click", function () {
+    $(this).next(".accordian").slideToggle();
+    $(this).find("span svg").toggleClass("rotate");
+  });
 });
